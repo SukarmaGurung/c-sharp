@@ -9,6 +9,7 @@ namespace Fifth_Semester
             int oddNumber = 45;
             Console.WriteLine(evenNumber + oddNumber); // Prints 67
             Console.WriteLine(oddNumber - evenNumber); // Prints 23
+            Console.WriteLine(evenNumber *  oddNumber); //Prints
         }
 	}
 }
