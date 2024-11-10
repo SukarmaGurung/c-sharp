@@ -398,11 +398,18 @@ public class TourPackage {
     private bool _booked;
     public static void Main()
     {
-        TourPackage tourPackage = new TourPackage();
-        tourPackage.SetUpPackage("Pokhara",3,9000);
-        tourPackage.DisplayPackageDetails();
-        tourPackage.BookPackage("Sukarma", true);
-        tourPackage.DisplayPackageDetails();
+        TourPackage pokharaPackage = new TourPackage();
+        pokharaPackage.SetUpPackage("Pokhara", 3, 9000);
+        pokharaPackage.DisplayPackageDetails();
+        pokharaPackage.BookPackage("Sukarma", true);
+        pokharaPackage.DisplayPackageDetails();
+
+        TourPackage ktmPackage = new TourPackage();
+        ktmPackage.SetUpPackage("KTM", 7, 9000);
+        ktmPackage.DisplayPackageDetails();
+        ktmPackage.BookPackage("Kavita", true);
+        ktmPackage.DisplayPackageDetails();
+
     }
 
     public void DisplayPackageDetails()
