@@ -278,115 +278,170 @@
 
 // 1. Using for loop, make a Multiplication table for any number.
 
-Console.WriteLine("Enter a number for its multiplication table:");
-int number = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Enter a number for its multiplication table:");
+//int number = Convert.ToInt32(Console.ReadLine());
 
-for (int i = 1; i <= 10; i++)
-{
-    int multiplication = number * i;
-    Console.WriteLine(number + "*" + i + "=" + multiplication);
-}
+//for (int i = 1; i <= 10; i++)
+//{
+//    int multiplication = number * i;
+//    Console.WriteLine(number + "*" + i + "=" + multiplication);
+//}
 
-// 2. Using while loop, starting from 1, double the number until it is greater than 100. 
-int num = 1;
-while (num <= 100)
-{
-    Console.WriteLine(num);
-    num *= 2;
-}
-Console.WriteLine(num);
+//// 2. Using while loop, starting from 1, double the number until it is greater than 100. 
+//int num = 1;
+//while (num <= 100)
+//{
+//    Console.WriteLine(num);
+//    num *= 2;
+//}
+//Console.WriteLine(num);
 
-// 3. Using do while loop, ask user to input number that is both divisible by 5 and 7.(Try using Exception handling and not break the code on wrong input)
+//// 3. Using do while loop, ask user to input number that is both divisible by 5 and 7.(Try using Exception handling and not break the code on wrong input)
 
-int divBy = 0;
-bool check = false;
-do
-{
-    try
+//int divBy = 0;
+//bool check = false;
+//do
+//{
+//    try
+//    {
+//        Console.WriteLine("Enter a number divisible by both 5 and 7: ");
+//        divBy = int.Parse(Console.ReadLine());
+
+//        if (divBy % 5 == 0 && divBy % 7 == 0)
+//        {
+//            Console.WriteLine(divBy + " is divisible by 5 and 7.");
+//            check = true;
+//        }
+//        else
+//        {
+//            Console.WriteLine(divBy + " is not divisible by both 5 and 7");
+//        }
+//    }
+//    catch (Exception ex)
+//    {
+//        Console.WriteLine("Please enter a valid number.");
+//    }
+//} while (!check);
+
+
+////// 4. Using foreach loop, given a list of names, print out which names have more than 5 letters.
+//string[] names = new string[]
+//   { "Ram", "Shyam", "Andrew", "Ricky", "Mathew", "Felix", "Danish" };
+//foreach (string name in names)
+//{
+//    if (name.Length < 5)
+//    {
+//        Console.WriteLine(name + " has less  than 5 letters");
+
+//    }
+//}
+
+//// 5. Using for loop print out prime numbers between 1 to 50.
+//bool isPrime = true;
+//Console.WriteLine("Prime Numbers : ");
+//for (int i = 2; i <= 50; i++)
+//{
+//    for (int j = 2; j <= 50; j++)
+//    {
+
+//        if (i != j && i % j == 0)
+//        {
+//            isPrime = false;
+//            break;
+//        }
+
+//    }
+//    if (isPrime)
+//    {
+//        Console.Write("\n" + i);
+//    }
+//    isPrime = true;
+//}
+//Console.ReadLine();
+
+
+
+
+////6.Using foreach loop find out which is the largest score in a given list.
+//List<int> scores = new List<int> { 7, 89, 9, 56, 178, 107, 92 };
+
+
+//int largestScore = int.MinValue;
+
+
+//foreach (int score in scores)
+//{
+//    if (score > largestScore)
+//    {
+//        largestScore = score; 
+//    }
+//}
+
+
+//Console.WriteLine("The largest score is: " + largestScore);
+
+
+////7.Using while loop check if a given input is a palindrome number. (eg: 121, 222, 65756 is palindrome 223, 5567, 112112 isn't)
+////8.Using do while loop print the first N terms of Fibonacci sequence. (eg: input = 7 output = 0, 1, 1, 2, 3, 5, 8)
+
+////9.Using while loop, print factorial of a number. (eg: input = 5 output = 120)
+////10.Given a multidimensional array of 5 students with marks of 5 different subjects. Use for loop and find out which student has highest percentage.
+
+    
+public class TourPackage {
+    //fields
+    private int _id;
+    private List <string> _destination;
+    private int _days;
+    private int _price;
+    private string _name;
+    private bool _booked;
+    public static void Main()
     {
-        Console.WriteLine("Enter a number divisible by both 5 and 7: ");
-        divBy = int.Parse(Console.ReadLine());
+        TourPackage tourPackage = new TourPackage();
+        tourPackage.SetUpPackage("Pokhara",3,9000);
+        tourPackage.DisplayPackageDetails();
+        tourPackage.BookPackage("Sukarma", true);
+        tourPackage.DisplayPackageDetails();
+    }
 
-        if (divBy % 5 == 0 && divBy % 7 == 0)
-        {
-            Console.WriteLine(divBy + " is divisible by 5 and 7.");
-            check = true;
+    public void DisplayPackageDetails()
+    {
+        Console.WriteLine("Destination:" + _destination);
+        Console.WriteLine("Days:" + _days);
+        Console.WriteLine("Price:" + _price);
+        Console.WriteLine("Booked status:" + _booked);
+        if (!_booked) {
+            Console.WriteLine("It isn't booked yet");
         }
-        else
-        {
-            Console.WriteLine(divBy + " is not divisible by both 5 and 7");
-        }
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine("Please enter a valid number.");
-    }
-} while (!check);
-
-
-//// 4. Using foreach loop, given a list of names, print out which names have more than 5 letters.
-string[] names = new string[]
-   { "Ram", "Shyam", "Andrew", "Ricky", "Mathew", "Felix", "Danish" };
-foreach (string name in names)
-{
-    if (name.Length < 5)
-    {
-        Console.WriteLine(name + " has less  than 5 letters");
-
-    }
-}
-
-// 5. Using for loop print out prime numbers between 1 to 50.
-bool isPrime = true;
-Console.WriteLine("Prime Numbers : ");
-for (int i = 2; i <= 50; i++)
-{
-    for (int j = 2; j <= 50; j++)
-    {
-
-        if (i != j && i % j == 0)
-        {
-            isPrime = false;
-            break;
+        else {
+            Console.WriteLine("Booked by:" + _name);
         }
 
+
     }
-    if (isPrime)
+    public void SetUpPackage(string destination, int days, int price)
     {
-        Console.Write("\n" + i);
+        _destination = new List<string>();
+        _destination.Add(destination);
+        _days = days;
+        _price = price;
+        Console.WriteLine(_destination);
     }
-    isPrime = true;
-}
-Console.ReadLine();
+    private void BookPackage(string name, bool book)
 
-
-
-
-//6.Using foreach loop find out which is the largest score in a given list.
-List<int> scores = new List<int> { 7, 89, 9, 56, 178, 107, 92 };
-
-
-int largestScore = int.MinValue;
-
-
-foreach (int score in scores)
-{
-    if (score > largestScore)
     {
-        largestScore = score; 
+        _name = name;
+        _booked = book;
     }
+
 }
 
-
-Console.WriteLine("The largest score is: " + largestScore);
-
-
-//7.Using while loop check if a given input is a palindrome number. (eg: 121, 222, 65756 is palindrome 223, 5567, 112112 isn't)
-//8.Using do while loop print the first N terms of Fibonacci sequence. (eg: input = 7 output = 0, 1, 1, 2, 3, 5, 8)
-
-//9.Using while loop, print factorial of a number. (eg: input = 5 output = 120)
-//10.Given a multidimensional array of 5 students with marks of 5 different subjects. Use for loop and find out which student has highest percentage.
-
+    //basic examples
+    //students
+    //course
+    //bankAccount
+    //libraray
 
 
 
