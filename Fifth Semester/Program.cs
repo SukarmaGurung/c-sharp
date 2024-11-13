@@ -387,16 +387,66 @@
 ////9.Using while loop, print factorial of a number. (eg: input = 5 output = 120)
 ////10.Given a multidimensional array of 5 students with marks of 5 different subjects. Use for loop and find out which student has highest percentage.
 
-    
-public class TourPackage {
-    //fields
-    private int _id;
-    private List <string> _destination;
+
+//public class TourPackage {
+//    //fields
+//    private int _id;
+//    private List<string> _destination;
+//    private int _days;
+//    private int _price;
+//    private string _name;
+//    private bool _booked;
+//    public void DisplayPackageDetails()
+//    {
+//        Console.WriteLine("Destination:" + _destination);
+//        Console.WriteLine("Days:" + _days);
+//        Console.WriteLine("Price:" + _price);
+//        Console.WriteLine("Booked status:" + _booked);
+//        if (!_booked) {
+//            Console.WriteLine("It isn't booked yet");
+//        }
+//        else {
+//            Console.WriteLine("Booked by:" + _name);
+//        }
+
+
+//    }
+//    public void SetUpPackage(string destination, int days, int price)
+//    {
+//        _destination = new List<string>();
+//        _destination.Add(destination);
+//        _days = days;
+//        _price = price;
+//        Console.WriteLine(_destination);
+//    }
+//    private void BookPackage(string name, bool book)
+
+//    {
+//        _name = name;
+//        _booked = book;
+//    }
+
+//}
+
+//basic examples
+//students
+//course
+//bankAccount
+//libraray
+
+public class TourPackage
+{
+    // field
+
+    private int _id; //underscore rakheko for convention 
+    private List<string> _destination; // kata kata hunxa sakyo so list ma 
     private int _days;
     private int _price;
     private string _name;
     private bool _booked;
+
     public static void Main()
+    
     {
         TourPackage pokharaPackage = new TourPackage();
         pokharaPackage.SetUpPackage("Pokhara", 3, 9000);
@@ -420,41 +470,39 @@ public class TourPackage {
 
     public void DisplayPackageDetails()
     {
-        Console.WriteLine("Destination:" + _destination);
-        Console.WriteLine("Days:" + _days);
-        Console.WriteLine("Price:" + _price);
-        Console.WriteLine("Booked status:" + _booked);
-        if (!_booked) {
-            Console.WriteLine("It isn't booked yet");
-        }
-        else {
-            Console.WriteLine("Booked by:" + _name);
-        }
+        Console.WriteLine("Destination: " + _destination);
+        Console.WriteLine("Days: " + _days);
+        Console.WriteLine("Price: " + _price);
 
-
+        Console.WriteLine("Booked status: " + _booked);
+        if (!_booked)
+        {
+            Console.WriteLine("it isn't booked yet ");
+        }
+        else
+        {
+            Console.WriteLine("Booked by: " + _name);
+        }
     }
-    public void SetUpPackage(string destination, int days, int price)
+
+    public void SetUpPackage(string destination, int days, int price)  // this is a function
     {
         _destination = new List<string>();
         _destination.Add(destination);
         _days = days;
         _price = price;
-        Console.WriteLine(_destination);
-    }
-    private void BookPackage(string name, bool book)
 
+    }
+
+    public void BookPackage(string name, bool book)
     {
         _name = name;
         _booked = book;
+
     }
 
-}
 
-    //basic examples
-    //students
-    //course
-    //bankAccount
-    //libraray
+}
 
 
 

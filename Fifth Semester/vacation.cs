@@ -1,14 +1,27 @@
-﻿//using System;
-
-//namespace Fifth_Semester
+﻿///
+//public class vacation
 //{
-//    public class Vacation
+    
+
+//    public static void Main()
 //    {
-//        // Main entry point of the application
-//        static void Main(string[] args)
-//        {
-//            Console.WriteLine("Hello world");
-//        }
+//        TourPackage pokharaPackage = new TourPackage();
+//        pokharaPackage.SetUpPackage("Pokhara", 3, 9000);
+//        pokharaPackage.DisplayPackageDetails();
+//        pokharaPackage.BookPackage("Sukarma", true);
+//        pokharaPackage.DisplayPackageDetails();
+
+//        TourPackage ktmPackage = new TourPackage();
+//        ktmPackage.SetUpPackage("KTM", 6, 9000);
+//        ktmPackage.DisplayPackageDetails();
+//        ktmPackage.BookPackage("Kavita", true);
+//        ktmPackage.DisplayPackageDetails();
+
+//        TourPackage ktmPackage2 = new TourPackage();
+//        ktmPackage2.SetUpPackage("KTM", 7, 9000);
+//        ktmPackage2.DisplayPackageDetails();
+//        ktmPackage2.BookPackage("Ram", true);
+//        ktmPackage2.DisplayPackageDetails();
+
 //    }
 //}
-
