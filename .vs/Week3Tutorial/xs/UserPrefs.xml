@@ -1,4 +1,27 @@
 ﻿<Properties StartupConfiguration="{5E347CF3-1BD8-4A6F-A07D-652C9F8C59E8}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Week3Tutorial FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Week3Tutorial FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week3Tutorial/PartTimeEmployee.cs">
+    <Files>
+      <File FileName="Week3Tutorial/Program.cs" Line="1" Column="1" />
+      <File FileName="Week3Tutorial/FullTimeEmployee.cs" Line="20" Column="61" />
+      <File FileName="Week3Tutorial/PartTimeEmployee.cs" Line="33" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Week3Tutorial">
+            <Node name="Week3Tutorial">
+              <Node name="PartTimeEmployee.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

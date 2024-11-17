@@ -1,0 +1,15 @@
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/bin/Debug/net7.0/Week3Tutorial
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/bin/Debug/net7.0/Week3Tutorial.deps.json
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/bin/Debug/net7.0/Week3Tutorial.runtimeconfig.json
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/bin/Debug/net7.0/Week3Tutorial.dll
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/bin/Debug/net7.0/Week3Tutorial.pdb
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/Week3Tutorial.csproj.AssemblyReference.cache
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/Week3Tutorial.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/Week3Tutorial.AssemblyInfoInputs.cache
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/Week3Tutorial.AssemblyInfo.cs
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/Week3Tutorial.csproj.CoreCompileInputs.cache
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/Week3Tutorial.dll
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/refint/Week3Tutorial.dll
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/Week3Tutorial.pdb
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/Week3Tutorial.genruntimeconfig.cache
+/Users/sukarmagurung/Projects/Week3Tutorial/Week3Tutorial/obj/Debug/net7.0/ref/Week3Tutorial.dll
