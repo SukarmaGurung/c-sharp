@@ -21,9 +21,12 @@ namespace Week3Tutorial
             int area = length * breadth;
             Console.WriteLine("The area for reactangle with length" + length + " and breadth"+ breadth + "is:" + area);
         }
-        public static void main()
+        public static void Main()
         {
-
+            Area a = new Area();
+            a.CalculateArea(5);
+                a.CalculateArea(5.55);
+            a.CalculateArea(7);
         }
     }
 }
