@@ -1,26 +1,31 @@
 ﻿<Properties StartupConfiguration="{5E347CF3-1BD8-4A6F-A07D-652C9F8C59E8}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Week3Tutorial PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Week3Tutorial/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week3Tutorial/Area.cs">
     <Files>
-      <File FileName="Week3Tutorial/Program.cs" Line="46" Column="88" />
-      <File FileName="Week3Tutorial/FullTimeEmployee.cs" Line="14" Column="23" />
-      <File FileName="Week3Tutorial/PartTimeEmployee.cs" Line="14" Column="48" />
-      <File FileName="Week3Tutorial/Employee.cs" Line="26" Column="1" />
+      <File FileName="Week3Tutorial/Program.cs" Line="91" Column="13" />
+      <File FileName="Week3Tutorial/FullTimeEmployee.cs" />
+      <File FileName="Week3Tutorial/PartTimeEmployee.cs" />
+      <File FileName="Week3Tutorial/Employee.cs" />
+      <File FileName="Week3Tutorial/Shape.cs" Line="27" Column="1" />
+      <File FileName="Week3Tutorial/Rectangle.cs" Line="65" Column="10" />
+      <File FileName="Week3Tutorial/Square.cs" Line="68" Column="51" />
+      <File FileName="Week3Tutorial/ShapeCalculator.cs" Line="81" Column="1" />
+      <File FileName="Week3Tutorial/Area.cs" Line="22" Column="121" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Week3Tutorial">
+          <Node name="Week3Tutorial" expanded="True">
             <Node name="Week3Tutorial" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
