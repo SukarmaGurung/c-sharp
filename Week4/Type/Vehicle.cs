@@ -1,11 +1,17 @@
 ﻿using System;
-namespace Week4.Type
+namespace Duplicate
 {
-	public class Vehicle
+	enum Vehicle
 	{
-		public Vehicle()
-		{
-		}
+		Car,
+		Motorcycle,Truck
+
 	}
+	//public class Vehicle
+	//{
+	//	public Vehicle()
+	//	{
+	//	}
+	//}
 }
 

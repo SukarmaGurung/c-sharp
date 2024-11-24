@@ -3,11 +3,11 @@ namespace Week4
 {
 	struct Vehicle: IDrivable {
 		public string Name { get; }
-		public string VehicleType { get; }
+		public Duplicate.Vehicle VehicleType { get; }
 
 
 
-        public Vehicle(string name, string vehicleType)
+        public  Vehicle (string name, Duplicate.Vehicle vehicleType)
         {
             Name = name;
             VehicleType = vehicleType;
