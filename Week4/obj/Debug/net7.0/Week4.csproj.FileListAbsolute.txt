@@ -1,0 +1,15 @@
+/Users/sukarmagurung/Projects/Week4/Week4/bin/Debug/net7.0/Week4
+/Users/sukarmagurung/Projects/Week4/Week4/bin/Debug/net7.0/Week4.deps.json
+/Users/sukarmagurung/Projects/Week4/Week4/bin/Debug/net7.0/Week4.runtimeconfig.json
+/Users/sukarmagurung/Projects/Week4/Week4/bin/Debug/net7.0/Week4.dll
+/Users/sukarmagurung/Projects/Week4/Week4/bin/Debug/net7.0/Week4.pdb
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/Week4.csproj.AssemblyReference.cache
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/Week4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/Week4.AssemblyInfoInputs.cache
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/Week4.AssemblyInfo.cs
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/Week4.csproj.CoreCompileInputs.cache
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/Week4.dll
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/refint/Week4.dll
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/Week4.pdb
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/Week4.genruntimeconfig.cache
+/Users/sukarmagurung/Projects/Week4/Week4/obj/Debug/net7.0/ref/Week4.dll
