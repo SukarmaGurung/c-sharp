@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="Type\" />
+    <None Remove="Typo\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Type\" />
+    <Folder Include="Typo\" />
   </ItemGroup>
 </Project>
