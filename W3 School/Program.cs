@@ -85,6 +85,30 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             double myNum7 = 19.99D;
             Console.WriteLine(myNum7);
 
+            float f1 = 35e3F;
+            Console.WriteLine(f1);
+
+            double d1 = 12E4D;
+            Console.WriteLine(d1); //A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+
+            bool isCSharpFun = true;
+            Console.WriteLine(isCSharpFun);   // Outputs True
+
+            bool isFishTasty = false;
+           Console.WriteLine(isFishTasty);   // Outputs False
+
+            char myGrade = 'B';
+            Console.WriteLine(myGrade);
+
+            string greeting = "Hello World";
+            Console.WriteLine(greeting);
+
+            int myInt = 9;
+            double myDouble = myInt;       // Automatic casting: int to double
+
+            Console.WriteLine(myInt);      // Outputs 9
+            Console.WriteLine(myDouble);   // Outputs 9
+
 
         }
     }
