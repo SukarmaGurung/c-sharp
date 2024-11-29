@@ -62,6 +62,29 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             string fullName = firstName + lastName;
             Console.WriteLine(fullName);
 
+            int x = 5;
+            int y = 6;
+            Console.WriteLine(x + y); // Print the value of x + y
+
+            int a = 5, b = 6, c = 50;
+            Console.WriteLine(a + b + c);
+
+            int d, e, f;
+            d = e = f = 50;
+            Console.WriteLine(d + e + f);
+
+            int myNum4 = 100000;
+            Console.WriteLine(myNum4);
+
+            long myNum5 = 15000000000L;
+            Console.WriteLine(myNum5);
+
+            float myNum6 = 5.75F;
+            Console.WriteLine(myNum6);
+
+            double myNum7 = 19.99D;
+            Console.WriteLine(myNum7);
+
 
         }
     }
