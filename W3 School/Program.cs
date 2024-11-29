@@ -23,7 +23,28 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             Console.WriteLine(name ,"\n");
 
             int myNum = 15;
-            Console.WriteLine(myNum);
+            Console.WriteLine(myNum );
+
+            int myNum1;
+            myNum1 = 7;
+            Console.WriteLine(myNum1);
+
+            int myNum2 = 15;
+            myNum2 = 20; // myNum is now 20
+            Console.WriteLine(myNum2);
+
+            int myNum3 = 5;
+            double myDoubleNum = 5.99D;
+            char myLetter = 'D';
+            bool myBool = true;
+            string myText = "Hello";
+            Console.WriteLine(myNum3);
+            Console.WriteLine(myDoubleNum);
+            Console.WriteLine(myLetter);
+            Console.WriteLine(myBool);
+            Console.WriteLine(myText);
+
+
         }
     }
 }
