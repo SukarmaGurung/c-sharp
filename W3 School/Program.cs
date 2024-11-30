@@ -130,18 +130,18 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
 
             //user input
             // Type your username and press enter
-            Console.WriteLine("Enter username:");
+            //Console.WriteLine("Enter username:");
 
-            // Create a string variable and get user input from the keyboard and store it in the variable
-            string userName = Console.ReadLine();
+            //// Create a string variable and get user input from the keyboard and store it in the variable
+            //string userName = Console.ReadLine();
 
-            // Print the value of the variable (userName), which will display the input value
-            Console.WriteLine("Username is: " + userName);
+            //// Print the value of the variable (userName), which will display the input value
+            //Console.WriteLine("Username is: " + userName);
 
 
-            Console.WriteLine("Enter your age:");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Your age is: " + age);
+            //Console.WriteLine("Enter your age:");
+            //int age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Your age is: " + age);
 
             //operators
             //arithmetic  +,-,*,/,%,a++,a--
@@ -170,6 +170,33 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             Console.WriteLine(Math.Max(i,j));
             Console.WriteLine(Math.Min(i,j ));
             Console.WriteLine(Math.Sqrt(i));
+
+
+            //c# strings
+            //strings  A string variable contains a collection of characters surrounded by double quotes:
+            string greeting1 = "Hello Sukarma";
+            Console.WriteLine(greeting1);
+            string greeting2 = "Nice to meet you!";
+            Console.WriteLine(greeting2);
+            //string length
+            string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            Console.WriteLine("The length of the txt string is: " + txt.Length);
+
+            //upper to lower
+            string txt1 = "Hello World";
+            Console.WriteLine(txt1.ToUpper());   // Outputs "HELLO WORLD"
+            Console.WriteLine(txt1.ToLower());   // Outputs "hello world"
+
+            //concatenation
+            string firstName1 = "Sukarma ";
+            string lastName1 = "Gurung Ghale";
+            string name1 = firstName1 + lastName1;
+            Console.WriteLine(name1);
+
+
+            //interpolation
+            //Access strings
+            //special characters
 
 
 
