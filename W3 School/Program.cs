@@ -376,6 +376,35 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             while (n < 6);
 
 
+            //c# for loop
+            //suntax for (statement 1; statement 2; statement 3) 
+            //{
+            //    // code block to be executed
+            //}
+
+            for (int s = 0; s < 5; s++)
+            {
+                Console.WriteLine(s);
+            }
+            for (int o = 0; o <= 10; o = o + 2)
+            {
+                Console.WriteLine(o);
+            }
+
+
+            // Outer loop
+            for (int t = 1; t <= 2; ++t)
+            {
+                Console.WriteLine("Outer: " + t);  // Executes 2 times
+
+                // Inner loop
+                for (int u = 1; u <= 3; u++)
+                {
+                    Console.WriteLine(" Inner: " + u); // Executes 6 times (2 * 3)
+                }
+            }
+
+
 
 
 
