@@ -193,6 +193,12 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             string name1 = firstName1 + lastName1;
             Console.WriteLine(name1);
 
+            //we can use string concat
+            string firstName2 = "Kavita ";
+            string lastName2 = "Gurung";
+            string name3 = string.Concat(firstName2, lastName2);
+            Console.WriteLine(name3);
+
 
             //interpolation
             //Access strings
