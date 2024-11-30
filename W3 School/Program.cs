@@ -199,9 +199,39 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             string name3 = string.Concat(firstName2, lastName2);
             Console.WriteLine(name3);
 
+            //            C# uses the + operator for both addition and concatenation.
+
+            //Remember: Numbers are added.Strings are concatenated.
+            int x1 = 10;
+            int y1 = 20;
+            int z1 = x1 + y1;  // z will be 30 (an integer/number)
+            Console.WriteLine(z1);
+
+
+            string x2 = "10";
+            string y2 = "20";
+            string z2 = x2 + y2;  // z will be 1020 (a string)
+            Console.WriteLine(z2);
+
 
             //interpolation
+            //Another option of string concatenation, is string interpolation, which
+            //substitutes values of variables into placeholders in a string.
+            //Note that you do not have to worry about spaces, like with concatenation:
+            //you have to use the dollar sign ($) when using the string interpolation method.
+
+            string firstName4 = "Ram";
+            string lastName4 = "Gurung";
+            string name4 = $"My full name is: {firstName4} {lastName4}";
+            Console.WriteLine(name4);
+
+
             //Access strings
+            string myString = "Hello";
+            Console.WriteLine(myString[4]);  // Outputs "H"
+
+            string myString1 = "Hello";
+            Console.WriteLine(myString1.IndexOf("e"));  // Outputs "1"
             //special characters
 
 
