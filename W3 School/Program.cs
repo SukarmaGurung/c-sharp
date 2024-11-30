@@ -262,19 +262,56 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             }
 
 
-            //c# if else
-
-
-
-
-
-
-
-
-
-
-
+            //c# if 
+            if (20 > 18)
+            {
+                Console.WriteLine("20 is greater than 18");
             }
+
+            int p = 20;
+            int q = 18;
+            if (q < p)
+            {
+                Console.WriteLine("p is greater than q");
+            }
+
+            //c# else
+            int time = 20;
+            if (time < 18)
+            {
+                Console.WriteLine("Good day.");
+            }
+            else
+            {
+                Console.WriteLine("Good evening.");
+            }
+
+            //c# else if
+            int timer = 22;
+            if (timer < 10)
+            {
+                Console.WriteLine("Good morning.");
+            }
+            else if (timer > 20)
+            {
+                Console.WriteLine("Good day.");
+            }
+            else
+            {
+                Console.WriteLine("Good evening.");
+            }
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }
 
