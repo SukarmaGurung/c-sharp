@@ -139,6 +139,42 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             Console.WriteLine("Username is: " + userName);
 
 
+            Console.WriteLine("Enter your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);
+
+            //operators
+            //arithmetic  +,-,*,/,%,a++,a--
+            //assignments =,+=,-=,*=,/=,%=,&=,|=,x^=3 x=x^3
+            //comparison ==,!=,>,<,>=,<=
+            //logical &&,||,!
+
+            int sum1 = 100 + 50;        // 150 (100 + 50)
+            Console.WriteLine(sum1);
+
+            int sum2 = sum1 + 250;      // 400 (150 + 250)
+            Console.WriteLine(sum2);
+
+            int sum3 = sum2 + sum2;     // 800 (400 + 400)
+            Console.WriteLine(sum3);
+
+
+            //comparison operators
+            int h = 5;
+            int g = 3;
+            Console.WriteLine(h > g); // returns True because 5 is greater than 3
+
+            //c# math
+            int i = 5;
+            int j = 10;
+            Console.WriteLine(Math.Max(i,j));
+            Console.WriteLine(Math.Min(i,j ));
+            Console.WriteLine(Math.Sqrt(i));
+
+
+
+
+
 
 
 
