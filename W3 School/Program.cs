@@ -245,9 +245,24 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             Console.WriteLine(txt4);
 
             //c# boolean
+            //int myAge = 25;
+            //int votingAge = 18;
+            //Console.WriteLine(myAge >= votingAge);
+
             int myAge = 25;
             int votingAge = 18;
-            Console.WriteLine(myAge >= votingAge);
+
+            if (myAge >= votingAge)
+            {
+                Console.WriteLine("Old enough to vote!");
+            }
+            else
+            {
+                Console.WriteLine("Not old enough to vote.");
+            }
+
+
+            //c# if else
 
 
 
@@ -259,7 +274,7 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
 
 
 
-        }
+            }
     }
 }
 
