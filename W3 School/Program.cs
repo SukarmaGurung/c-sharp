@@ -232,7 +232,23 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
 
             string myString1 = "Hello";
             Console.WriteLine(myString1.IndexOf("e"));  // Outputs "1"
+
             //special characters
+            // \'=single quote,\"= double quotes,\\ =backslash,\n=next line,\t=tab,\b= backspace
+            string txt2 = "We are the so-called \"Vikings\" from the north.";
+            Console.WriteLine(txt2);
+
+            string txt3 = "It\'s alright.";
+            Console.WriteLine(txt3);
+
+            string txt4 = "The character \\ is called backslash.";
+            Console.WriteLine(txt4);
+
+            //c# boolean
+            int myAge = 25;
+            int votingAge = 18;
+            Console.WriteLine(myAge >= votingAge);
+
 
 
 
