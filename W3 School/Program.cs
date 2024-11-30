@@ -6,6 +6,9 @@
 
 
 using System; //using System means that we can use classes from the System namespace.
+using static System.Reflection.Metadata.BlobBuilder;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Runtime.Intrinsics.X86;
 
 namespace HelloWorld // namespace is used to organize your code, and it is a container for classes and other namespaces.
 {
@@ -300,6 +303,77 @@ namespace HelloWorld // namespace is used to organize your code, and it is a con
             {
                 Console.WriteLine("Good evening.");
             }
+
+            //short hand if else
+            //syntax variable = (condition) ? expressionTrue :  expressionFalse;
+
+            int timers = 20;
+            string result = (timers < 18) ? "Good day." : "Good evening.";
+            Console.WriteLine(result);
+
+
+            //c # switch
+
+            //Use the switch statement to select one of
+            //many code blocks to be executed
+
+
+            int day = 4;
+            switch (day)
+            {
+                case 1:
+                    Console.WriteLine("Sunday");
+                    break;
+                case 2:
+                    Console.WriteLine("Monday");
+                    break;
+                case 3:
+                    Console.WriteLine("Tuesday");
+                    break;
+                case 4:
+                    Console.WriteLine("Wednesday");
+                    break;
+                case 5:
+                    Console.WriteLine("Thrusday");
+                    break;
+                case 6:
+                    Console.WriteLine("Friday");
+                    break;
+                case 7:
+                    Console.WriteLine("Saturday");
+                    break;
+            }
+
+            //The default keyword is optional and specifies
+            //some code to run if there is no case match:
+            int days = 4;
+            switch (days)
+            {
+                case 6:
+                    Console.WriteLine("Today is Saturday.");
+                    break;
+                case 7:
+                    Console.WriteLine("Today is Sunday.");
+                    break;
+                default:
+                    Console.WriteLine("Looking forward to the Weekend.");
+                    break;
+            }
+            //c# while loops
+            int m = 0;
+            while (m < 5)
+            {
+                Console.WriteLine(i);
+                m++;
+            }
+
+            int n = 0;
+            do
+            {
+                Console.WriteLine(n);
+                n++;
+            }
+            while (n < 6);
 
 
 
