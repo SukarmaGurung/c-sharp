@@ -16,11 +16,12 @@ namespace Week5
                 Marks = 67,
                 AcademicYear = "3rd"
             };
-            DisplayDetails(studentData);
+           
             string fileName = "Sukarma.json";
             AddDataToJSONFile(studentData, fileName);
 
-            //ReadDataFromJSONFile()
+             studentData = ReadDataFromJSONFile(fileName);
+            DisplayDetails(studentData);
 
         }
         public static void DisplayDetails(Student studentData)
