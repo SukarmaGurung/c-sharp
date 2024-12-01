@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using Week5;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Week5
 {
@@ -16,6 +17,10 @@ namespace Week5
                 AcademicYear = "3rd"
             };
             DisplayDetails(studentData);
+            string fileName = "Sukarma.json";
+            AddDataToJSONFile(studentData, fileName);
+
+            //ReadDataFromJSONFile()
 
         }
         public static void DisplayDetails(Student studentData)
